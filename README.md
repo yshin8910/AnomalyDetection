@@ -2,4 +2,4 @@
 
 Github repo for our project page
 
-https://github.gatech.edu/pages/pwilson48/pwilson48.github.io/
+https://github.com/pages/yshin8910/pwilson48.github.io/
