@@ -171,36 +171,13 @@ We achieved our highest accuracies by training a SVM classifier to distinguish b
 
 In this report, given a large sample of emails written by one person and a large sample of emails not written by that person, we will be able to determine whether a new email (supposedly) written by the same author should be flagged or not. In this way, we are attempting to simulate an external entity taking over a persons email account. We have attempted various methods to gain more accurate results. We see that whether we use Porter Stemming, or Lemmatization methods, there was little to no change in the performance metrics. Furthermore, the classifiers showed a small performance boost when using the TF-IDF vectorizer compared to the count vectorizer. The accuracy results for the iForest method were not as promising as we had initially hoped. Additionally, the Naive Bayes classifier did not outperform the SVM classifier. All in all, the SVM classifier proved to perform the best on our high-dimensional email data. For future extensions of this project, we believe that training on true email anomalies could boost some of the performance values for the models like iForest and Naive Bayes. A reliable method to flag if an email was not written by its claimed author could provide another layer of security against identity theft.
 
-## Group member contributions
+## Group member
 
 ### Peter Wilson
- * Located dataset
- * Wrote data parsing and cleaning (not preprocessing) Python code
- * Wrote the Introduction and Data Collection and Cleaning sections of the report
- * Wrote SVM section of Results, using analysis scripts prepared by different group members
-
 ### Samuel Gamage
- * Co-Authored SVM and Isolation Forest method code with Isaac King
- * Wrote Naive Bayes method code
- * Wrote python code for all the visualizations
- * Wrote python code for bag-of-words and TF-IDF vectorization
- * Wrote python code for retrieving data
- * Wrote Naive Bayes method and results for final report
-
 ### Vy Le
- * Wrote Porter Stemming and Lemmatization Algorithm Python code
- * Wrote parts of Data Preprocessing, Results, and Conclusion for the report
- * Made the Powerpoints and recorded the videos for the presentation
- 
 ### Isaac King
- * Wrote part of the iForest result section for final report
- * Wrote the unsupervised section for final report
- * Wrote the discussion section for final report
- * Co-Authored SVM and iForest method code with Samuel Gamage
- 
 ### Yeajin Shin
- * Wrote SVM method for the final report
- * Wrote Isolation Forest method for the final report
  
 ## References
 
